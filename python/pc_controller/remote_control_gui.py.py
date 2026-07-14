@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image, ImageTk
 
 # Raspberry Pi Server Configurations
-RPI_IP      = '172.20.10.3'  
+RPI_IP      = '172.20.10.2'  
 PORT        = 61499
 STREAM_URL  = f"http://{RPI_IP}:8080/video_feed"
 
